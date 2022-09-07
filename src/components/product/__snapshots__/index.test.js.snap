@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<a
+  href="/product/detail/5aace31a-3196-4d17-801f-017cd28ed7b1"
+  onClick={[Function]}
+>
+  <div
+    className="product-card pt-2 px-2 pb-4 rounded-[4px]"
+  >
+    <div
+      className="product-card-image mb-2 relative"
+    >
+      <img
+        alt="Avanza"
+        className="rounded-[4px] product-image w-full h-28 object-cover"
+        src="http://res.cloudinary.com/amnesiac/image/upload/v1658150925/secondhand/product/ntuemunelbg9oedur6gr.jpg"
+      />
+    </div>
+    <h4
+      className="text-sm text-black mb-1"
+    >
+      Avanza
+    </h4>
+    <span
+      className="block mb-2 text-[10px] text-[#8A8A8A]"
+    >
+      Kendaraan
+    </span>
+    <span
+      className="block text-sm text-black"
+    >
+      IDR 250,000,000.00
+    </span>
+  </div>
+</a>
+`;
+
+exports[`renders product card correctly 1`] = `
+<a
+  href="/product/detail/5aace31a-3196-4d17-801f-017cd28ed7b1"
+  onClick={[Function]}
+>
+  <div
+    className="product-card pt-2 px-2 pb-4 rounded-[4px]"
+  >
+    <div
+      className="product-card-image mb-2 relative"
+    >
+      <img
+        alt="Avanza"
+        className="rounded-[4px] product-image w-full h-28 object-cover"
+        src="http://res.cloudinary.com/amnesiac/image/upload/v1658150925/secondhand/product/ntuemunelbg9oedur6gr.jpg"
+      />
+    </div>
+    <h4
+      className="text-sm text-black mb-1"
+    >
+      Avanza
+    </h4>
+    <span
+      className="block mb-2 text-[10px] text-[#8A8A8A]"
+    >
+      Kendaraan
+    </span>
+    <span
+      className="block text-sm text-black"
+    >
+      IDR 250,000,000.00
+    </span>
+  </div>
+</a>
+`;

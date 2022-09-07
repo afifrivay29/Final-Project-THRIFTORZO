@@ -1,0 +1,18 @@
+.category-warpper {
+	-ms-overflow-style: none; /* Internet Explorer 10+ */
+	scrollbar-width: none; /* Firefox */
+}
+
+.btn-category.active {
+	@apply bg-purplePrimary text-white;
+}
+
+.category-warpper::-webkit-scrollbar {
+	@apply hidden;
+}
+
+@media screen and (max-width: 767px) {
+	.product-section {
+		@apply mt-[-148px] relative z-10;
+	}
+}

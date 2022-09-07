@@ -1,0 +1,9 @@
+.bg-auth {
+	@apply bg-left h-[100vh] bg-cover bg-[url(../../assets/images/auth-new.svg)];
+}
+
+@media screen and (max-width: 767px) {
+	.bg-auth {
+		@apply bg-none;
+	}
+}

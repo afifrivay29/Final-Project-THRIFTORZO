@@ -1,0 +1,3 @@
+.product-upload .ant-upload-list-picture-card .ant-upload-list-item {
+	@apply rounded-2xl;
+}

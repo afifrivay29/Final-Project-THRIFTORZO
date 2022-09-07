@@ -1,0 +1,7 @@
+.btn-category.active {
+	@apply bg-purplePrimary text-white;
+}
+
+.sidebar-product .active {
+	@apply text-purplePrimary !important;
+}

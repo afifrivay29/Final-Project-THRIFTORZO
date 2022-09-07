@@ -1,0 +1,154 @@
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container-internal {
+	max-width: 968px !important;
+}
+
+.container-small {
+	max-width: 568px !important;
+}
+
+.ant-form-item-label {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px !important;
+	color: #000000;
+	padding: 0 0 4px !important;
+}
+
+.ant-btn-background-ghost {
+	background: #ffffff !important;
+}
+
+.ant-input-number-input,
+.ant-input-password,
+.ant-input {
+	padding: 14px 16px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+	max-height: 48px;
+	border-radius: 16px;
+}
+
+.ant-input-number-input {
+	padding: 0 16px;
+	height: 48px;
+}
+
+.ant-input-number {
+	width: 100%;
+	border-radius: 16px;
+	overflow: hidden;
+}
+
+.ant-input-password .ant-input {
+	border-radius: 0;
+}
+
+.ant-select-selector {
+	padding: 14px 16px !important;
+	height: auto !important;
+	max-height: 48px;
+	display: flex;
+	align-items: center;
+	border-radius: 16px !important;
+}
+
+textarea.ant-input {
+	max-height: unset !important;
+}
+
+.select-city .ant-select-single .ant-select-selector .ant-select-selection-search {
+	left: 16px;
+}
+
+.select-city
+	.ant-select-single:not(.ant-select-customize-input)
+	.ant-select-selector
+	.ant-select-selection-search-input {
+	height: 48px;
+}
+
+.btn-custom {
+	padding: 14px 24px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: #ffffff;
+	height: auto;
+	max-height: 48px;
+	border-radius: 16px;
+}
+
+.ant-upload.ant-upload-select-picture-card {
+	background: #e2d4f0;
+	border-radius: 12px;
+	border: none;
+}
+
+.product-upload .ant-upload.ant-upload-select-picture-card {
+	background: transparent;
+	border: 1px dashed #d0d0d0;
+	border-radius: 12px;
+}
+
+.main-content {
+	min-height: 100vh;
+	padding-bottom: 128px;
+	position: relative;
+}
+
+.main-content.no-header {
+	min-height: unset;
+	padding-bottom: 0;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+.header .ant-row {
+	flex-flow: row !important;
+}
+
+.global-alert-success {
+	background-color: #73ca5c !important;
+	border-radius: 12px !important;
+	padding: 16px 24px 16px 24px !important;
+}
+
+.global-alert-error {
+	background-color: #da3f24 !important;
+	border-radius: 12px !important;
+	padding: 16px 24px 16px 24px !important;
+}
+
+.global-alert-success .ant-notification-notice-message,
+.global-alert-success .anticon-close {
+	color: #ffffff !important;
+	margin-bottom: 0 !important;
+}
+
+.global-alert-error .ant-notification-notice-message,
+.global-alert-error .anticon-close {
+	color: #ffffff !important;
+	margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 767px) {
+	.main-content {
+		padding-bottom: 60px;
+	}
+}

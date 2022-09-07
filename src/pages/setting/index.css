@@ -1,0 +1,15 @@
+.seeting-nav a,
+.seeting-nav div {
+	@apply pb-4;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.seeting-nav a span,
+.seeting-nav div span {
+	@apply transition-all duration-500;
+}
+
+.seeting-nav a:hover span,
+.seeting-nav div:hover span {
+	@apply text-purplePrimary;
+}

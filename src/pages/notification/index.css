@@ -1,0 +1,7 @@
+.notification-item {
+	@apply pb-4 mb-4 border-b border-[#e5e5e5];
+}
+
+.notification-item:last-child {
+	@apply pb-0 mb-4 border-b-0;
+}

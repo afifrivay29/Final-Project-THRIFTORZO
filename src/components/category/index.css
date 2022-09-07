@@ -1,0 +1,3 @@
+.btn-category.active {
+	@apply bg-purplePrimary text-white;
+}

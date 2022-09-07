@@ -1,0 +1,50 @@
+.ant-input-affix-wrapper.search-bar {
+	@apply rounded-2xl text-sm py-[11px] px-6 h-12 bg-[#eeeeee] border-none;
+}
+
+.ant-input-affix-wrapper.search-bar input {
+	@apply bg-[#eeeeee];
+}
+
+.header {
+	@apply bg-white shadow-[0_0_10px_rgba(0,0,0,0.15)];
+}
+
+.notification {
+	@apply shadow-[0_0_10px_rgba(0,0,0,0.15)];
+}
+
+.header::before {
+	@apply content-[''] opacity-0 invisible transition-all ease-in-out duration-500;
+}
+
+.header .header-link svg {
+	stroke: #151515;
+}
+
+.header .header-link svg:hover {
+	stroke: #7126b5;
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		@apply py-[5px] px-0 shadow-none bg-white;
+	}
+
+	.header.on-top {
+		@apply bg-transparent absolute inset-x-0 top-0 z-10 py-9 px-0;
+	}
+
+	.ant-input-affix-wrapper.search-bar,
+	.ant-input-affix-wrapper.search-bar input {
+		@apply bg-[#ffffff];
+	}
+
+	.row-on-mobile > .ant-col:first-child {
+		@apply pr-2;
+	}
+
+	.row-on-mobile > .ant-col:last-child {
+		@apply pl-2;
+	}
+}

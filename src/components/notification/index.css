@@ -1,0 +1,17 @@
+.notification-item {
+	@apply pb-4 mb-4 cursor-pointer border-b-[1px] border-[#e5e5e5];
+}
+
+.notification-item:last-child {
+	@apply pb-0 mb-0 !important;
+}
+
+.notification-item .notification-content p,
+.notification-item .notification-content span {
+	transition: all 0.3s;
+}
+
+.notification-item:hover .notification-content p,
+.notification-item:hover .notification-content span {
+	@apply text-purplePrimary;
+}

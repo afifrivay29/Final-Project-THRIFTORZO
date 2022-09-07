@@ -1,0 +1,8 @@
+.ant-skeleton-element {
+	@apply w-full !important;
+	@apply h-[112px] mb-7;
+}
+
+.ant-skeleton.ant-skeleton-active .ant-skeleton-avatar {
+	@apply w-full h-full;
+}

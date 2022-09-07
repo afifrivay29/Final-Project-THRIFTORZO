@@ -1,0 +1,22 @@
+{
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"extends": "eslint:recommended",
+	"parser": "@babel/eslint-parser",
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"babelOptions": {
+			"presets": ["@babel/preset-react"]
+		},
+		"requireConfigFile": false
+	},
+	"rules": {
+		"no-unused-vars": "off",
+		"no-mixed-spaces-and-tabs": "off",
+		"indent": "off",
+		"quotes": ["error", "single"]
+	},
+	"ignorePatterns": ["*.spec.js", "*.test.js"]
+}

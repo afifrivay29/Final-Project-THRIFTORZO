@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders product card correctly 1`] = `
+<button
+  className="ant-btn ant-btn-primary ant-btn-lg bg-[#7126b5] text-[#ffffff] py-3 px-6 h-[52px] flex items-center rounded-xl sell-btn mx-auto shadow-buttonSell fixed bottom-[24px] left-1/2 z-10"
+  disabled={false}
+  onClick={[Function]}
+  type="button"
+>
+  <svg
+    className="mr-4"
+    fill="none"
+    height={24}
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+    viewBox="0 0 24 24"
+    width={24}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <line
+      x1="12"
+      x2="12"
+      y1="5"
+      y2="19"
+    />
+    <line
+      x1="5"
+      x2="19"
+      y1="12"
+      y2="12"
+    />
+  </svg>
+  <span>
+    Jual
+  </span>
+</button>
+`;

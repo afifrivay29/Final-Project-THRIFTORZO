@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders  correctly 1`] = `
+<div
+  className="footer bg-[#7126B5] py-9 hidden md:block"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="ant-row"
+      style={
+        Object {
+          "marginLeft": -12,
+          "marginRight": -12,
+        }
+      }
+    >
+      <div
+        className="ant-col flex md:justify-start justify-center ant-col-xs-24 ant-col-md-12"
+        style={
+          Object {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          }
+        }
+      >
+        <span
+          className="text-lg font-bold leading-5 text-white md:mb-0 mb-6"
+        >
+          <img
+            alt="Thriftorzo"
+            className="h-[56px]"
+            src="logo-white.svg"
+          />
+        </span>
+      </div>
+      <div
+        className="ant-col flex md:justify-end items-center justify-center ant-col-xs-24 ant-col-md-12"
+        style={
+          Object {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          }
+        }
+      >
+        <span
+          className="md:text-sm text-xs text-white"
+        >
+          Copyright ©2022 Thriftorzo. All rights reserved.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders footer correctly 1`] = `
+<div
+  className="footer bg-[#7126B5] py-9 hidden md:block"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="ant-row"
+      style={
+        Object {
+          "marginLeft": -12,
+          "marginRight": -12,
+        }
+      }
+    >
+      <div
+        className="ant-col flex md:justify-start justify-center ant-col-xs-24 ant-col-md-12"
+        style={
+          Object {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          }
+        }
+      >
+        <span
+          className="text-lg font-bold leading-5 text-white md:mb-0 mb-6"
+        >
+          <img
+            alt="Thriftorzo"
+            className="h-[56px]"
+            src="logo-white.svg"
+          />
+        </span>
+      </div>
+      <div
+        className="ant-col flex md:justify-end items-center justify-center ant-col-xs-24 ant-col-md-12"
+        style={
+          Object {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          }
+        }
+      >
+        <span
+          className="md:text-sm text-xs text-white"
+        >
+          Copyright ©2022 Thriftorzo. All rights reserved.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders product card correctly 1`] = `
+<div
+  className="footer bg-[#7126B5] py-9 hidden md:block"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="ant-row"
+      style={
+        Object {
+          "marginLeft": -12,
+          "marginRight": -12,
+        }
+      }
+    >
+      <div
+        className="ant-col flex md:justify-start justify-center ant-col-xs-24 ant-col-md-12"
+        style={
+          Object {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          }
+        }
+      >
+        <span
+          className="text-lg font-bold leading-5 text-white md:mb-0 mb-6"
+        >
+          <img
+            alt="Thriftorzo"
+            className="h-[56px]"
+            src="logo-white.svg"
+          />
+        </span>
+      </div>
+      <div
+        className="ant-col flex md:justify-end items-center justify-center ant-col-xs-24 ant-col-md-12"
+        style={
+          Object {
+            "paddingLeft": 12,
+            "paddingRight": 12,
+          }
+        }
+      >
+        <span
+          className="md:text-sm text-xs text-white"
+        >
+          Copyright ©2022 Thriftorzo. All rights reserved.
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

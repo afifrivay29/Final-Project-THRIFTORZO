@@ -1,0 +1,14 @@
+.page-info-penawaran .notification-item:hover .notification-content span {
+	@apply text-[#8A8A8A] !important;
+}
+.page-info-penawaran .notification-item:hover .notification-content p {
+	@apply text-black !important;
+}
+
+.notification-action {
+	@apply flex;
+}
+
+.notification-action button {
+	@apply text-sm px-6 rounded-2xl h-auto pt-[7px] pb-[7px] w-full;
+}

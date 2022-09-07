@@ -1,0 +1,7 @@
+.product-upload .ant-upload-list-picture-card .ant-upload-list-item {
+	@apply rounded-2xl;
+}
+
+.product-image-item {
+	@apply mr-4 rounded-xl flex-shrink-0;
+}
